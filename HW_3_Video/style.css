@@ -1,0 +1,18 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+.controls img {
+    width: 35px;
+}
+video {
+    width: 400px;
+    height: 300px;
+    border: 2px solid orange;
+}
+.controls button {
+    background: none;
+    border: none;
+}
+.btn {
+    width: 70px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="float:left">
+    <img class='btn' src="img\Tolkien.jpg" alt="">
+    <button id='tr1' style="display:block">Start trailer!</button>
+    </div>
+    <div style="float:left">
+            <img class='btn' src="img\JokerPoster.jpg" alt="">
+            <button id='tr2' style="display:block">Start trailer!</button>
+            </div>
+            <div style="float:left">
+                    <img class='btn' src="img\Yesterday.jpg" alt="">
+                    <button id='tr3' style="display:block">Start trailer!</button>
+                    </div>
+    <div class="videoBlock" style="clear: both;"> 
+        <video id='video'></video>
+        <div class="controls">
+        <button id="play_pause"><img src="img\pause.png" alt=""></button> 
+        <button id="f-r"><img src="img\forward-r.png" alt=""></button> 
+        <button id="f-l"><img src="img\forward-l.png" alt=""></button>
+        <button id="s-l"><img src="img\s-l.png" alt=""></button>
+        <button id="sound"><img src="img\s.png" alt=""></button>
+        <button id="s-r"><img src="img\s-r.png" alt=""></button>
+        </div>
+    </div>  
+    <canvas id="thecanvas">
+        </canvas>  
+    <script src="main.js"></script>
+</body>
+</html>
