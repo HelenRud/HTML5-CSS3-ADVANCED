@@ -1,0 +1,77 @@
+$sizePar: 100px;
+$mainColor: #990000;
+$secondColor: #ffcccc;
+
+%base-class{
+    display: block;
+        background-color: $mainColor;
+        color: white;
+        text-transform: uppercase;
+        line-height: $sizePar/2;
+        font-weight: bold;
+        border-radius:$sizePar/5; 
+        text-align: center;
+        &:hover{
+            color: $mainColor;
+            background-color: $secondColor;
+        }
+}
+%base-clear{
+    content: '';
+    display: block;
+    clear: both;
+}
+* {
+    margin:0;
+    padding:0;
+}
+@import 'header';
+@import 'nav';
+@import 'footer';
+
+article{
+    float: left;
+     width: 84%;
+     background: linear-gradient($secondColor, white);
+     display: block;
+    border-left: 2px solid $mainColor;
+
+   
+        h2{
+        @extend %base-class;
+        text-align: right;
+        padding-right: $sizePar/2; 
+        margin: $sizePar/2;
+   
+        
+        &:hover{
+           
+            border: 2px solid $mainColor;
+        }
+        }
+    img{
+        margin: 20px;
+        width: $sizePar*3;
+        float: left;
+    }
+    p{
+        padding: 15px;
+        font-size: 1.2em;
+        color: $mainColor;
+        span{
+            font-weight: bold;
+        }
+        &:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+   h3{
+    text-align: center;
+    color: $mainColor;
+    font-size: 1.3em;
+   }
+
+}
+@import 'footer';

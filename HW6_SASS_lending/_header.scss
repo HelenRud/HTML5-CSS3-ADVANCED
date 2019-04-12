@@ -1,0 +1,19 @@
+
+header {
+    width:100%;
+    height:$sizePar;
+    background-color: $secondColor;
+    margin:4px 0;
+    box-shadow: 0 0 10px $mainColor;
+    img{
+        height:$sizePar;
+        float: left;
+        margin-left: $sizePar/2;
+    }
+    h1 {
+        text-align: center;
+        color: $mainColor;
+        line-height: $sizePar;
+    }
+    
+}

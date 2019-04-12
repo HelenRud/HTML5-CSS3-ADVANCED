@@ -1,0 +1,25 @@
+footer{
+    clear:both;
+
+    width:100%;
+    height:$sizePar;
+    background-color: $secondColor;
+
+    box-shadow: 0 0 10px $mainColor;
+    img{
+        width: 30px;
+        margin: 10px;
+    }
+    .about {
+        a{
+            margin: 10px;
+        color:$mainColor;
+    }
+}
+    li{
+        display: inline-block;
+        
+  
+    }
+
+}
